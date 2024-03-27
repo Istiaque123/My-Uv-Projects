@@ -23,12 +23,15 @@ public class Main {
 
         Employee employee1 = new Employee("Remon Hossain", "Manager");
         Employee employee2 = new Employee("Isti", "Teller");
+        Employee employee3 = new Employee("Jilll", "Accountent");
 
         bank.addEmployee(employee1);
         bank.addEmployee(employee2);
 
         bank.displayAllAccounts();
         bank.displayAllEmployees();
+
+        bank.addEmployee(employee3);
 
     }
 }
